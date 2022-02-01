@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCDelivery.API", "CCDelivery.API\CCDelivery.API.csproj", "{7FFF502D-9EDA-4545-920A-FD5898FB89FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCDelivery.Infrastructure", "CCDelivery.Infrastructure\CCDelivery.Infrastructure.csproj", "{D61258F4-8E0A-48D8-883D-C96B88530243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCDelivery.Domain", "CCDelivery.Domain\CCDelivery.Domain.csproj", "{21F76DDB-EE63-4FF7-9C34-FC7555FF17BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7FFF502D-9EDA-4545-920A-FD5898FB89FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FFF502D-9EDA-4545-920A-FD5898FB89FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FFF502D-9EDA-4545-920A-FD5898FB89FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61258F4-8E0A-48D8-883D-C96B88530243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61258F4-8E0A-48D8-883D-C96B88530243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61258F4-8E0A-48D8-883D-C96B88530243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61258F4-8E0A-48D8-883D-C96B88530243}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F76DDB-EE63-4FF7-9C34-FC7555FF17BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F76DDB-EE63-4FF7-9C34-FC7555FF17BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F76DDB-EE63-4FF7-9C34-FC7555FF17BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F76DDB-EE63-4FF7-9C34-FC7555FF17BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
